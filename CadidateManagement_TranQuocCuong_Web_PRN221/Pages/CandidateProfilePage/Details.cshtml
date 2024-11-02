@@ -1,0 +1,62 @@
+﻿@page
+@model CadidateManagement_TranQuocCuong_Web_PRN221.Pages.CandidateProfilePage.DetailsModel
+
+@{
+    ViewData["Title"] = "Details";
+    String RoleID = HttpContext.Session.GetString("RoleID");
+    if (!RoleID.Equals("1") && !RoleID.Equals("2"))
+    {
+        Response.Redirect("/NotPermission");
+    }
+}
+
+<div class="container mt-5">
+    <div class="card shadow-lg">
+        <div class="card-header bg-primary text-white">
+            <h3>Candidate Profile Details</h3>
+        </div>
+        <div class="card-body">
+            <h4 class="card-title">Candidate Profile</h4>
+            <hr />
+            <dl class="row">
+                <dt class="col-sm-3">
+                    @Html.DisplayNameFor(model => model.CandidateProfile.Fullname)
+                </dt>
+                <dd class="col-sm-9">
+                    @Html.DisplayFor(model => model.CandidateProfile.Fullname)
+                </dd>
+                <dt class="col-sm-3">
+                    @Html.DisplayNameFor(model => model.CandidateProfile.Birthday)
+                </dt>
+                <dd class="col-sm-9">
+                    @Html.DisplayFor(model => model.CandidateProfile.Birthday)
+                </dd>
+                <dt class="col-sm-3">
+                    @Html.DisplayNameFor(model => model.CandidateProfile.ProfileShortDescription)
+                </dt>
+                <dd class="col-sm-9">
+                    @Html.DisplayFor(model => model.CandidateProfile.ProfileShortDescription)
+                </dd>
+                <dt class="col-sm-3">
+                    @Html.DisplayNameFor(model => model.CandidateProfile.ProfileUrl)
+                </dt>
+                <dd class="col-sm-9">
+                    @Html.DisplayFor(model => model.CandidateProfile.ProfileUrl)
+                </dd>
+                <dt class="col-sm-3">
+                    @Html.DisplayNameFor(model => model.CandidateProfile.Posting)
+                </dt>
+                <dd class="col-sm-9">
+                    @Html.DisplayFor(model => model.CandidateProfile.Posting.JobPostingTitle)
+                </dd>
+            </dl>
+        </div>
+        <div class="card-footer text-center">
+            @if (RoleID.Equals("1"))
+            {
+                <a asp-page="./Edit" asp-route-id="@Model.CandidateProfile.CandidateId" class="btn btn-warning btn-sm">Edit</a>
+            }
+            <a asp-page="./Index" class="btn btn-secondary">Back to List</a>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,447 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\SEM7\\PRN221PE_FA22_TrialTest_Tue_Slot02\\RazorPage_FPTU\\CadidateManagement_TranQuocCuong_Web_PRN221\\CadidateManagement_TranQuocCuong_Web_PRN221.csproj": {}
+  },
+  "projects": {
+    "C:\\SEM7\\PRN221PE_FA22_TrialTest_Tue_Slot02\\RazorPage_FPTU\\CadidateManagement_TranQuocCuong_Web_PRN221\\CadidateManagement_TranQuocCuong_Web_PRN221.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\SEM7\\PRN221PE_FA22_TrialTest_Tue_Slot02\\RazorPage_FPTU\\CadidateManagement_TranQuocCuong_Web_PRN221\\CadidateManagement_TranQuocCuong_Web_PRN221.csproj",
+        "projectName": "CadidateManagement_TranQuocCuong_Web_PRN221",
+        "projectPath": "C:\\SEM7\\PRN221PE_FA22_TrialTest_Tue_Slot02\\RazorPage_FPTU\\CadidateManagement_TranQuocCuong_Web_PRN221\\CadidateManagement_TranQuocCuong_Web_PRN221.csproj",
+        "packagesPath": "C:\\Users\\Newgear\\.nuget\\packages\\",
+        "outputPath": "C:\\SEM7\\PRN221PE_FA22_TrialTest_Tue_Slot02\\RazorPage_FPTU\\CadidateManagement_TranQuocCuong_Web_PRN221\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Newgear\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\SEM7\\PRN221PE_FA22_TrialTest_Tue_Slot02\\RazorPage_FPTU\\Candidate_Service\\Candidate_Service.csproj": {
+                "projectPath": "C:\\SEM7\\PRN221PE_FA22_TrialTest_Tue_Slot02\\RazorPage_FPTU\\Candidate_Service\\Candidate_Service.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.33, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[6.0.33, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.33, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[6.0.17, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.30, 6.0.30]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[6.0.30, 6.0.30]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.30, 6.0.30]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.30, 6.0.30]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.205\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\SEM7\\PRN221PE_FA22_TrialTest_Tue_Slot02\\RazorPage_FPTU\\Candidate_BusinessObjects\\Candidate_BusinessObjects.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\SEM7\\PRN221PE_FA22_TrialTest_Tue_Slot02\\RazorPage_FPTU\\Candidate_BusinessObjects\\Candidate_BusinessObjects.csproj",
+        "projectName": "Candidate_BusinessObjects",
+        "projectPath": "C:\\SEM7\\PRN221PE_FA22_TrialTest_Tue_Slot02\\RazorPage_FPTU\\Candidate_BusinessObjects\\Candidate_BusinessObjects.csproj",
+        "packagesPath": "C:\\Users\\Newgear\\.nuget\\packages\\",
+        "outputPath": "C:\\SEM7\\PRN221PE_FA22_TrialTest_Tue_Slot02\\RazorPage_FPTU\\Candidate_BusinessObjects\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Newgear\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.29, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.29, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.29, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.30, 6.0.30]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.30, 6.0.30]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.30, 6.0.30]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.205\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\SEM7\\PRN221PE_FA22_TrialTest_Tue_Slot02\\RazorPage_FPTU\\Candidate_DAO\\Candidate_DAO.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\SEM7\\PRN221PE_FA22_TrialTest_Tue_Slot02\\RazorPage_FPTU\\Candidate_DAO\\Candidate_DAO.csproj",
+        "projectName": "Candidate_DAO",
+        "projectPath": "C:\\SEM7\\PRN221PE_FA22_TrialTest_Tue_Slot02\\RazorPage_FPTU\\Candidate_DAO\\Candidate_DAO.csproj",
+        "packagesPath": "C:\\Users\\Newgear\\.nuget\\packages\\",
+        "outputPath": "C:\\SEM7\\PRN221PE_FA22_TrialTest_Tue_Slot02\\RazorPage_FPTU\\Candidate_DAO\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Newgear\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\SEM7\\PRN221PE_FA22_TrialTest_Tue_Slot02\\RazorPage_FPTU\\Candidate_BusinessObjects\\Candidate_BusinessObjects.csproj": {
+                "projectPath": "C:\\SEM7\\PRN221PE_FA22_TrialTest_Tue_Slot02\\RazorPage_FPTU\\Candidate_BusinessObjects\\Candidate_BusinessObjects.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.30, 6.0.30]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.30, 6.0.30]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.30, 6.0.30]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.205\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\SEM7\\PRN221PE_FA22_TrialTest_Tue_Slot02\\RazorPage_FPTU\\Candidate_Repository\\Candidate_Repository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\SEM7\\PRN221PE_FA22_TrialTest_Tue_Slot02\\RazorPage_FPTU\\Candidate_Repository\\Candidate_Repository.csproj",
+        "projectName": "Candidate_Repository",
+        "projectPath": "C:\\SEM7\\PRN221PE_FA22_TrialTest_Tue_Slot02\\RazorPage_FPTU\\Candidate_Repository\\Candidate_Repository.csproj",
+        "packagesPath": "C:\\Users\\Newgear\\.nuget\\packages\\",
+        "outputPath": "C:\\SEM7\\PRN221PE_FA22_TrialTest_Tue_Slot02\\RazorPage_FPTU\\Candidate_Repository\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Newgear\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\SEM7\\PRN221PE_FA22_TrialTest_Tue_Slot02\\RazorPage_FPTU\\Candidate_DAO\\Candidate_DAO.csproj": {
+                "projectPath": "C:\\SEM7\\PRN221PE_FA22_TrialTest_Tue_Slot02\\RazorPage_FPTU\\Candidate_DAO\\Candidate_DAO.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.30, 6.0.30]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.30, 6.0.30]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.30, 6.0.30]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.205\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\SEM7\\PRN221PE_FA22_TrialTest_Tue_Slot02\\RazorPage_FPTU\\Candidate_Service\\Candidate_Service.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\SEM7\\PRN221PE_FA22_TrialTest_Tue_Slot02\\RazorPage_FPTU\\Candidate_Service\\Candidate_Service.csproj",
+        "projectName": "Candidate_Service",
+        "projectPath": "C:\\SEM7\\PRN221PE_FA22_TrialTest_Tue_Slot02\\RazorPage_FPTU\\Candidate_Service\\Candidate_Service.csproj",
+        "packagesPath": "C:\\Users\\Newgear\\.nuget\\packages\\",
+        "outputPath": "C:\\SEM7\\PRN221PE_FA22_TrialTest_Tue_Slot02\\RazorPage_FPTU\\Candidate_Service\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Newgear\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\SEM7\\PRN221PE_FA22_TrialTest_Tue_Slot02\\RazorPage_FPTU\\Candidate_Repository\\Candidate_Repository.csproj": {
+                "projectPath": "C:\\SEM7\\PRN221PE_FA22_TrialTest_Tue_Slot02\\RazorPage_FPTU\\Candidate_Repository\\Candidate_Repository.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.30, 6.0.30]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.30, 6.0.30]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.30, 6.0.30]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.205\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

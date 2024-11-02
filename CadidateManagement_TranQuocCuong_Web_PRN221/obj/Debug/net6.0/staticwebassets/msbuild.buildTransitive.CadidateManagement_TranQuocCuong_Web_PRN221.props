@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\CadidateManagement_TranQuocCuong_Web_PRN221.props" />
+</Project>

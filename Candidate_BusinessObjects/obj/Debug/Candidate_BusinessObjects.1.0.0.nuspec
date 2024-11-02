@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Candidate_BusinessObjects</id>
+    <version>1.0.0</version>
+    <authors>Candidate_BusinessObjects</authors>
+    <description>Package Description</description>
+    <repository type="git" />
+    <dependencies>
+      <group targetFramework="net6.0">
+        <dependency id="Microsoft.EntityFrameworkCore.SqlServer" version="6.0.29" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Users\id\source\repos\PRN221PE_FA22_TrialTest_Tue_Slot02\Candidate_BusinessObjects\bin\Debug\net6.0\Candidate_BusinessObjects.runtimeconfig.json" target="lib\net6.0\Candidate_BusinessObjects.runtimeconfig.json" />
+    <file src="C:\Users\id\source\repos\PRN221PE_FA22_TrialTest_Tue_Slot02\Candidate_BusinessObjects\bin\Debug\net6.0\Candidate_BusinessObjects.dll" target="lib\net6.0\Candidate_BusinessObjects.dll" />
+  </files>
+</package>
